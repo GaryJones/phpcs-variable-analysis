@@ -40,11 +40,11 @@ It should just work after that!
 
 2. Clone the repository:
 
-        git clone -b master https://github.com/sirbrillig/VariableAnalysis.git VariableAnalysis
+        git clone -b master https://github.com/sirbrillig/phpcs-variable-analysis.git phpcs-variable-analysis
 
 3. Add its path to the PHP_CodeSniffer configuration:
 
-        phpcs --config-set installed_paths /path/to/VariableAnalysis
+        phpcs --config-set installed_paths /path/to/phpcs-variable-analysis
 
 If you already have installed paths, [use a comma to separate them](https://github.com/squizlabs/PHP_CodeSniffer/wiki/Configuration-Options#setting-the-installed-standard-paths).
 
