@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<ruleset name="VariableAnalysis">
+<ruleset name="phpcs-variable-analysis">
  <description>A code sniff to detect problems with variables.</description>
 
  <!-- If you want everything, with the defaults, just include this line -->
- <rule ref="VariableAnalysis.CodeAnalysis.VariableAnalysis"/>
+ <rule ref="phpcs-variable-analysis.CodeAnalysis.VariableAnalysis"/>
  <!--
     You can also refer to these policy codes to customize them:
-      VariableAnalysis.CodeAnalysis.VariableAnalysis.UndefinedVariable
-      VariableAnalysis.CodeAnalysis.VariableAnalysis.UnusedVariable
-      VariableAnalysis.CodeAnalysis.VariableAnalysis.VariableRedeclaration
-      VariableAnalysis.CodeAnalysis.VariableAnalysis.SelfOutsideClass
+      phpcs-variable-analysis.CodeAnalysis.VariableAnalysis.UndefinedVariable
+      phpcs-variable-analysis.CodeAnalysis.VariableAnalysis.UnusedVariable
+      phpcs-variable-analysis.CodeAnalysis.VariableAnalysis.VariableRedeclaration
+      phpcs-variable-analysis.CodeAnalysis.VariableAnalysis.SelfOutsideClass
  -->
 
  <!-- Include this block to customize VariableAnalysis behaviour -->
- <rule ref="VariableAnalysis.CodeAnalysis.VariableAnalysis">
+ <rule ref="phpcs-variable-analysis.CodeAnalysis.VariableAnalysis">
   <properties>
    <!--
       Include the following property if you want to include your own list of pass-by-reference
